@@ -15,7 +15,7 @@
 import os
 from datetime import datetime
 from setuptools import setup, PEP420PackageFinder
-
+import random
 
 def version_py_path():
     return os.path.join(os.path.dirname(__file__), 'src', 'transformers_neuronx', 'version.py')
